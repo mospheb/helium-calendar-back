@@ -1,0 +1,15 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+html {
+    font-size: 13px;
+    box-sizing: border-box;
+    min-height:100%;
+    position:relative;
+}
+
+body{
+    margin:0;
+    padding:0;
+    background-color:#ededed;
+    font-family:"Open Sans";
+}
+
