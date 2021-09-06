@@ -35,10 +35,10 @@ error_reporting(0);
                 <li class="nav-item">
                 <?php
                 if($_SESSION["reg_category"] == 'Candidate'){ ?>
-                    <a class="nav-link" href="/?page=candidate_slot">Slot</a>
+                    <a class="nav-link" href="https://helium-front.herokuapp.com/?page=candidate_slot">Slot</a>
                 <?php }
                 else {?>
-                    <a class="nav-link" href="/?page=interviewer_slot">Slot</a>
+                    <a class="nav-link" href="https://helium-front.herokuapp.com/?page=interviewer_slot">Slot</a>
                 <?php 
                 } ?>
                 </li>

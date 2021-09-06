@@ -1,7 +1,6 @@
 <?php
 if (!isset($_SESSION["reg_email"])){
-    header("Location: https://helium-front.herokuapp.com/?page=index");
-    exit();
+    echo '<script>window.location.replace("https://helium-front.herokuapp.com/?page=index")</script>';
 }
 
 if(isset($_POST["submit"])){

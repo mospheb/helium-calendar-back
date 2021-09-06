@@ -7,8 +7,7 @@
         unset($_SESSION["reg_name"]);
         unset($_SESSION["reg_email"]);
 
-        header("Location: https://helium-front.herokuapp.com/?page=index");
-        exit();
+        echo '<script>window.location.replace("https://helium-front.herokuapp.com/?page=index")</script>';
     }
 
 

@@ -57,16 +57,13 @@ if(isset($_POST["submit"])){
             $_SESSION["reg_email"] = $response->data[0]->email;
 
             if($category == 'Candidate'){
-                header("Location: https://helium-front.herokuapp.com/?page=home");
-                exit();
+                echo '<script>window.location.replace("https://helium-front.herokuapp.com/?page=home")</script>';
             }
             else if($category == 'Interviewer'){
-                header("Location: https://helium-front.herokuapp.com/?page=home");
-                exit();
+                echo '<script>window.location.replace("https://helium-front.herokuapp.com/?page=home")</script>';
             }
             else if($category == 'HR'){
-                header("Location: https://helium-front.herokuapp.com/?page=hr_home");
-                exit();
+                echo '<script>window.location.replace("https://helium-front.herokuapp.com/?page=hr_home")</script>';
             }
             
         }
